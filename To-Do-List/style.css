@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('https://media.istockphoto.com/id/1412400336/photo/2023-to-do-list-on-black-board-and-cozy-room.webp?b=1&s=170667a&w=0&k=20&c=E9GqhsV2etcyyGUwFHNXLqLv9v5eRWlqU-HsEMI6ifs=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    width: 23vw;
+}
+#list input{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 1.3rem;
+    padding: 0 0.8rem;
+    margin-bottom: 0.4rem;
+}
+#btn{
+    height: 5vh;
+    width: 2vw;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: grey;
+}
+#btn:active{
+    background-color: darkgray;
+}
+.task{
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 1.3rem;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+.task li{
+    list-style: none;
+}
+.items{
+    height: 5vh;
+    width: 100%;
+    border-radius: 1.3rem;
+    padding: 0 0.8rem;
+}
+.dbtn,.closebutton{
+    height: 4vh;
+    width: 3vw;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: 0 0.1rem;
+}
+
+.dbtn:hover{
+    background-color: green;
+}
+.closebutton:hover{
+    background-color: red;
+}

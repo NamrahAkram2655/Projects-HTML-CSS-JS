@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="clock">
+
+            <div class="gift">
+                <img src="img/animated-alarm-clock-image-000-unscreen.gif" alt="">
+            </div>
+            <div class="logo">
+                <img src="img/uff-removebg-preview.png"
+                    alt="">
+            </div>
+            <div class="t">
+                <h1 id="time">00:00:00 </h1>
+                <h1 id="me"> </h1>
+            </div>
+            <h3>Alarm At :</h3>
+            <p id="set"></p>
+            <div class="enterTime">
+                <input type="number" placeholder="Hours" id="hours" max="23">
+                <input type="number" placeholder="minutes" id="min" max="59">
+                <select name="" id="daynight">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <button id="btn">Set Alarm</button>
+            <audio src="alarm.mp3" id="music"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

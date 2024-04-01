@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* **********calculator******************** */
+
+.calculator {
+    height: 100vh;
+    background: url('https://media.istockphoto.com/id/1460853312/photo/abstract-connected-dots-and-lines-concept-of-ai-technology-motion-of-digital-data-flow.webp?b=1&s=170667a&w=0&k=20&c=WUSwLiSmeKNLdzCcIQyeCXnOXooAC4cVjwLbKFPPiU0=');
+    /* background: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.webp?b=1&s=170667a&w=0&k=20&c=ymHzOpQBTrldJ5egITZZAgfc7PGmxZ2bP83eo-KjARM='); */
+    /* background: url('https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.webp?b=1&s=170667a&w=0&k=20&c=c0Q8u1Y5yFJCDxltBZd0RAn1g01Se6qCjZGS5q9XLZs='); */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: wheat;
+}
+#input {
+    width: 20vw;
+    height: 5vh;
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 20vw;
+    height: 5vh;
+    /* background-color: grey; */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 20vw;
+}
+
+.buttons button {
+    padding: 0.4rem;
+    cursor: pointer;
+    margin: 0.3rem 0.2rem;
+    box-shadow: 0 0 1px 2px rgb(128, 125, 125);
+
+}
+
+/* **********calculator******************** */

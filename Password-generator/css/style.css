@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(171, 109, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#password h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+#password {
+    height: 60vh;
+    width: 30vw;
+    box-shadow: 0 0 10px black;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#password #final{
+    width: 25vw;
+    height: 4vh;
+    background-color: white;
+    margin: auto;
+}
+
+.result i {
+    position: relative;
+    right: 0.3rem;
+    cursor: pointer;
+    
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    /* margin: 0.8rem; */
+
+}
+
+.checking {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7rem 1rem;
+    font-size: 1.2rem;
+}
+
+input{
+    height: 3vh;
+    width: 3vw;
+}
+
+.count {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7rem 1rem;
+    font-size: 1.2rem;
+}
+
+.count input {
+    width: 4vw;
+}
+
+.generate {
+    display: flex;
+    justify-content: end;
+    margin: 1rem 0.4rem;
+}
+
+.generate button {
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+}

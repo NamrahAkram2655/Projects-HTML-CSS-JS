@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maindata {
+    height: 100vh;
+    background: url('https://www.pixelstalk.net/wp-content/uploads/images6/Cute-Dark-Forest-Wallpaper-620x327.jpg') no-repeat center center/ cover;
+}
+
+/* button styling */
+#btn {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 4rem;
+    padding: 0.9rem 2.3rem;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px black;
+}
+
+#btn:active {
+    background-color: black;
+    color: wheat;
+}
+
+/* data styling */
+
+.data {
+    /* height: 10vh; */
+    width: 20vw;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    display: none;
+    animation-name: downAnimate;
+    animation-duration: 0.6s;
+}
+@keyframes downAnimate {
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+
+}
+span {
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+span:hover {
+    color: red;
+}

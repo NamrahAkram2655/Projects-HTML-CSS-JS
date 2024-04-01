@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://media.istockphoto.com/id/1363027437/photo/the-storm-is-coming-storm-clouds-above-the-tree-heavy-torrential-rain-rainfall-flash-flooding.jpg?s=612x612&w=0&k=20&c=QL5n6OvC-2F3cYdO4SYelsDW_Ha3zgeHqZrnLW9qbrg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.datetime{
+    display: flex;
+    align-items: center;
+}
+#me{
+    text-transform: uppercase;
+    margin: 0 0.3rem;
+    font-size: 1.3rem;
+}
+#time {
+    font-size: 3rem;
+}
+
+.date {
+    font-size: 1.7rem;
+    margin: 0.5rem 0;
+}
+
+#timezone {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#longitude {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.item {
+    margin: 0.3rem 0;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#data {
+    background: rgba(29, 27, 27, 0.6);
+    padding: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+
+#forcast {
+    background: rgba(29, 27, 27, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#cast {
+    display: flex;
+}
+
+#today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+
+}
+
+#today .day {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: 0.8rem 0;
+    background-color: rgba(17, 16, 16, 0.8);
+}
+#today{
+    margin: 0.5rem 0.3rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.future {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem 0.3rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+.future .day {
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: 0.8rem 0;
+    background-color: rgba(17, 16, 16, 0.8);
+}
+input{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.4rem;
+}
+
+button{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+}
+

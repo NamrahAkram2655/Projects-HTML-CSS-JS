@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    background: url('');
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.t {
+    display: flex;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+    border: 3px;
+    box-shadow: 0 0 5px 2px black;
+    /* border: 12px ridge rgba(50, 180, 220, 0.6); */
+}
+
+img {
+    height: 24vh;
+}
+
+input {
+    margin: 1.5rem 0.3rem;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 0.7rem;
+    padding: 0 0.6rem;
+}
+select{
+    margin: 1.5rem 0.3rem;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 0.7rem;
+    padding: 0 0.6rem;
+}
+.gift {
+    display: none;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 0.2rem 0.8rem;
+    background-color: rgb(155, 165, 161);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: rgb(143, 148, 148);
+}
+.show{
+    display: block;
+}
+
+.main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: url('https://media.istockphoto.com/id/1375897245/photo/glass-hourglass-with-glowing-sand.jpg?s=612x612&w=0&k=20&c=wuH1Bw4IjK8X3qNpiAHTrqyvKr8OnhLC_K3fZ3huOCk=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -3;
+    opacity: 0.9;
+}

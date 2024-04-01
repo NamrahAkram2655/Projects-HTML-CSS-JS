@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="currentdata">
+            <div class="datetime">
+                <h1 id="time">00:00:00</h1>
+                <span id="me">am</span>
+            </div>
+            <div class="date">
+                <p id="d">Monday, 24 May</p>
+            </div>
+
+            <div id="data">
+
+                <div class="item">
+                    <p>Humidity</p>
+                    <p id="humidity">95%</p>
+                </div>
+                <div class="item">
+                    <p>Pressure</p>
+                    <p id="pressure">95%</p>
+                </div>
+                <div class="item">
+                    <p>Windspeed</p>
+                    <p id="Wind Speed">95%</p>
+                </div>
+                <div class="item">
+                    <p>Sunrise</p>
+                    <p id="Sunrise">95%</p>
+                </div>
+            </div>
+        </div>
+        <div class="serach">
+            <input type="text" placeholder="Enter your location for weather" id="input" required>
+            <button id="btn"><i class='bx bx-search-alt'></i></button>
+        </div>
+        <div class="place">
+            <p id="timezone">Asia/Kolkata</p>
+            <p id="lat">IN</p>
+            <p id="lon">IN</p>
+        </div>
+    </div>
+    </div>
+
+    <div id="forcast">
+        <div id="today">
+            <div>
+                <p class="day">Monday</p>
+                <p class="night">Night-35.6</p>
+                <p class="sun">Night-25.6</p>
+            </div>
+        </div>
+        <div id="cast">
+            <div class="future">
+                <p class="day">Monday</p>
+                <p class="max">Night-35.6</p>
+                <p class="min">Night-25.6</p>
+            </div>
+            <div class="future">
+                <p class="day">Monday</p>
+                <p class="max">Night-35.6</p>
+                <p class="min">Night-25.6</p>
+            </div>
+            <div class="future">
+                <p class="day">Monday</p>
+                <p class="max">Night-35.6</p>
+                <p class="min">Night-25.6</p>
+            </div>
+            <div class="future">
+                <p class="day">Monday</p>
+                <p class="max">Night-35.6</p>
+                <p class="min">Night-25.6</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

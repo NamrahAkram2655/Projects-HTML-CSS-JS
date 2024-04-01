@@ -1,0 +1,32 @@
+@media screen and (max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .place{
+        margin: 1rem 0;
+    }
+    .item{
+        width: 100%;
+    }
+    #forcast{
+        justify-content: start;
+        overflow-y: scroll;
+        align-items: none;
+    }
+
+    input{
+        height: 3vh;
+        width: 30vw;
+    }
+    #btn{
+        height: 3vh;
+        width: 6vw;
+    }
+    .serach{
+        margin: 1rem 0;
+    }
+}
